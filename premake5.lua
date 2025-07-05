@@ -3,7 +3,7 @@ project "GLFW"
 	kind "StaticLib"
 	language "C"
 	cdialect "C11" -- Changed from cppdialect to cdialect
-	staticruntime "On"
+	staticruntime "Off"
 
 	targetdir ("bin/" .. outdir .. "/%{prj.name}")
 	objdir ("bin-int/" .. outdir .. "/%{prj.name}")
