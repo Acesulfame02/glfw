@@ -1,5 +1,5 @@
 project "GLFW"
-	location "SulfameEngine/vendor/GLFW"
+	location "."
 	kind "StaticLib"
 	language "C"
 	cdialect "C11" -- Changed from cppdialect to cdialect
